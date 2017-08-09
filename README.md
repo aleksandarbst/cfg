@@ -1,8 +1,8 @@
 # Collection of settings, configs, and any other tweaks to CS:GO
 
-- autoexec.cfg
+- ***autoexec.cfg***
 
-###   Video Settings
+##   Video Settings
 
 Global Shadow Quality - **Low**
 
@@ -24,10 +24,10 @@ Wait for V-Sync - **Disabled**
 
 Motion Blur - **Disabled**
 
-### Lang File (extensively tweaked from bananagaming's)
+## Lang File (extensively tweaked from bananagaming's)
 
 - csgo_soory
 
-### csgo.exe properties
+## csgo.exe properties
 
 + Disable fullscreen optimizations
