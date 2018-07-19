@@ -1,6 +1,10 @@
 # Collection of settings, configs, and any other tweaks to CS:GO
 
-- ***autoexec.cfg***
+- ***cfg/autoexec.cfg***
+- ***cfg/dashchar.cfg***
+- ***cfg/c1.cfg***
+- ***cfg/trash.cfg***
+- ***cfg/economy.cfg***
 
 ##   Video Settings
 
@@ -24,9 +28,10 @@ Wait for V-Sync - **Disabled**
 
 Motion Blur - **Disabled**
 
-## Lang File (extensively tweaked from bananagaming's)
+## Lang File (extensively tweaked from orels's)
 
-- csgo_soory
+- resource/csgo_peach.txt
+
 
 ## csgo.exe properties
 
