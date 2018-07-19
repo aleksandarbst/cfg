@@ -1,13 +1,70 @@
-//created by Orel & spddl; copped from bananagaming(v2); tweaked by soory
+//created by Orel & spddl; tweaked by pitifulpeach
 "lang"
 {
 "Language" "English"
 "Tokens"
 { 
 // ---------------------------------------------------------------------------------------------
-
-		"Cstrike_TitlesTXT_Game_teammate_attack" " %s1 attacked a teammate."
 		
+	// PLAY MENUS
+	
+		"play_setting_online"				"Online"
+		"play_setting_offline"				"Offline"
+		"play_setting_training_course"		"Training"
+		"play_setting_workshop"				"Workshop"
+		"play_setting_community"			"Community Servers"
+
+	// INVENTORY
+
+		"SFUI_InvTooltip_Wear_Amount_0"		"Factory New"
+		"SFUI_InvTooltip_Wear_Amount_1"		"Minimal Wear"
+		"SFUI_InvTooltip_Wear_Amount_2"		"Field-Tested"
+		"SFUI_InvTooltip_Wear_Amount_3"		"Well-Worn"
+		"SFUI_InvTooltip_Wear_Amount_4"		"Battle-Scarred"
+		"CSGO_Inventory_Team_Any"			""
+		"CSGO_Inventory_Team_CT"			""
+		"CSGO_Inventory_Team_T"				""
+		"Attrib_KillEater"					"This item features StatTrak™ technology."
+
+	// NOW PLAYING INFORMATION (IN-GAME)
+	
+		"SFUI_NowPlaying_T"			"NEW ROUND"
+		"SFUI_NowPlaying_CT"			"NEW ROUND"
+		"SFUI_Notice_Hint_Bot_Takeover"		"PLAYING AS BOT %s1."
+
+	// WARNING & EVENT MESSAGES
+		
+		"Cstrike_TitlesTXT_C4_Plant_At_Bomb_Spot"		"Can't plant here."
+		"SFUI_Notice_C4_Plant_At_Bomb_Spot"				"Can't plant here."
+		"Cstrike_TitlesTXT_Game_teammate_attack" " %s1 attacked a teammate."
+		"Cstrike_TitlesTXT_Bomb_Defused"	"Bomb defused"
+		"Cstrike_TitlesTXT_Bomb_Planted"	"Bomb planted <font color='#e8ad21'>%s1 SECONDS</font>"
+		"SFUI_Notice_Got_Bomb"				"You got the bomb."
+		"SFUI_Notice_YouDroppedWeapon"		"<font color='#E0C675'>Dropped %s1</font>"
+		"SFUI_Notice_CannotDropWeapon"		"<font color='#F08080'>You cannot drop your %s1</font>"
+		"Cstrike_TitlesTXT_Switch_To_BurstFire"		"   Switched to <font color='#e8ad21'>BRATT BRATT</font>\n  "
+		"Cstrike_TitlesTXT_Switch_To_FullAuto"		"   Switched to <font color='#00ff00'>FULL AUTO</font>"
+		"Cstrike_TitlesTXT_Switch_To_SemiAuto"		"   Switched to <font color='#e8ad21'>BRATT BRATT</font>"
+
+	// DAMAGE INFO (IN-GAME)
+		
+		"Panorama_FreezePanel_DamageTaken"				"<font color='#A0A0A0'>Damage taken:  </font><font color='#ff0000'><b>{d:damage_taken}</b></font> <font color='#A0A0A0'> in</font> <font color='#ff0000'><b>{d:hits_taken} hit </b></font> <font color='#A0A0A0'>from {s:killer_name}</font>"
+		"Panorama_FreezePanel_DamageGiven"				"<font color='#A0A0A0'>Damage given:  </font><font color='#00ff00'><b>{d:damage_given}</b></font> <font color='#A0A0A0'> in</font> <font color='#00ff00'><b>{d:hits_given} hit </b></font> <font color='#A0A0A0'>to {s:killer_name}</font>"
+		"Panorama_FreezePanel_DamageTaken_Multi"		"<font color='#A0A0A0'>Damage taken:  </font><font color='#ff0000'><b>{d:damage_taken}</b></font> <font color='#A0A0A0'> in</font> <font color='#ff0000'><b>{d:hits_taken} hits </b></font> <font color='#A0A0A0'>from {s:killer_name}</font>"
+		"Panorama_FreezePanel_DamageGiven_Multi"		"<font color='#A0A0A0'>Damage given:  </font><font color='#00ff00'><b>{d:damage_given}</b></font> <font color='#A0A0A0'> in</font> <font color='#00ff00'><b>{d:hits_given} hits </b></font> <font color='#A0A0A0'>to {s:killer_name}</font>"
+		"Panorama_Freeze_Snapshot"						""
+		
+	// TARGET PLAYER (IN-GAME) 
+	
+		"Panorama_HUD_playerid_sameteam"		"<font color='#00ff00'>{s:player_name} - {d:player_health}%</font>"
+		"Panorama_HUD_playerid_diffteam"		"<font color='#ff0000'>{s:player_name}</font>"
+
+	// JOIN MESSAGE (CHAT)
+		
+		"Cstrike_game_join_spectators"			"%s1 joined Spectators\n"
+		"Cstrike_game_join_terrorist"			"%s1 joined Terrorist\n"
+		"Cstrike_game_join_ct"					"%s1 joined Counter-Terrorist\n"
+
 		"Player_Cash_Award_Kill_Teammate"		" %s1: Teamkill"
 		"Player_Cash_Award_Killed_Enemy_Generic" " %s1: Kill"
 		"Player_Cash_Award_Killed_Enemy"		" %s1: %s2 award"
@@ -25,7 +82,7 @@
 		"Player_Point_Award_Assist_Enemy_Plural"		" %s1 points: assist in killing %s2"
 		"Player_Cash_Award_ExplainSuicide_YouGotCash"			" +$%s2: Compensation for Suicide of %s1"
 		"Player_Cash_Award_ExplainSuicide_TeammateGotCash"		" %s3 awarded +$%s2 for the suicide of %s1."
-		"Player_Cash_Award_ExplainSuicide_EnemyGotCash"			" An enemy was awarded compensation for the suicide of %s1."
+		"Player_Cash_Award_ExplainSuicide_EnemyGotCash"			" Enemy was awarded compensation for the suicide of %s1."
 		"Player_Cash_Award_ExplainSuicide_Spectators"			" %s3 awarded +$%s2 for the suicide of %s1."
 
 		"Team_Cash_Award_T_Win_Bomb"						" %s1 (Team): C4 detonated"
@@ -45,18 +102,36 @@
 		"Team_Cash_Award_no_income_suicide"					" 0: Suicide"
 		"Team_Cash_Award_Generic"							" %s1: Team award"
 		"Team_Cash_Award_Custom"							" %s1 (Team): %s2"
-		
+
+// SFUI
+
+		"SFUI_Notice_Player_DisconnectedTooLong1min"	">> %s1 has disconnected, waiting 1 more minute before abandoning.\n"
+		"SFUI_Notice_Player_DisconnectedTooLong2min"	">> %s1 has disconnected, waiting 2 more minutes before abandoning.\n"
+		"SFUI_Notice_Player_DisconnectedTooLong3min"	">> %s1 has disconnected, waiting 3 more minutes before abandoning.\n"
+		"SFUI_Notice_Player_AbandonedCooldown_Min"		">> %s1 abandoned the match and received a %s2 minute competitive matchmaking cooldown.\n"
+		"SFUI_Notice_Player_AbandonedCooldown_Hrs"		">> %s1 abandoned the match and received a %s2 hour competitive matchmaking cooldown.\n"
+		"SFUI_Notice_Player_AbandonedCooldown_Days"		">> %s1 abandoned the match and received a %s2 day competitive matchmaking cooldown.\n"
+		"SFUI_Notice_Player_PermanentCooldown"			">> %s1 has been permanently banned from official CS:GO servers.\n"
+
+
+		"SFUI_PlayMenu_FriendsMatchCompetitiveButton"	"LOBBY > MM"
+		"SFUI_PlayMenu_FriendsMatchWingmanButton"		"LOBBY > WINGMAN"
 		"SFUI_Lobby_MatchReadyButton"			"LETS GO"
 		"SFUI_Lobby_MatchReadyTitle"			"YOUR MATCH IS READY!"
 		"SFUI_Lobby_MatchReadyPlayers"			"%s1 / 10"
 		"SFUI_Expected_Wait_time"				"~%s1"
-		"SFUI_Lobby_PrimeStatus"				"PRIME"
-		"SFUI_Lobby_Prime_Active"				"Enabled"
-		"SFUI_Lobby_Prime_InActive"				"Enabled, but allow non-Prime"
+		"SFUI_Lobby_PrimeStatus"				"MATCHMAKING OPTIONS"
+		"SFUI_Lobby_Has_NonPrime_Player"		"<b>Trust Factor:</b> On <b>Prime:</b> Off"
+		"SFUI_Lobby_Prime_Active"				"<b>Trust Factor:</b> On <b>Prime:</b> On"
+		"SFUI_Lobby_Prime_InActive"				"<b>Trust Factor:</b> On <b>Prime:</b> Off"
+		"SFUI_Lobby_Prime_Not_Enrolled"			"<b>Trust Factor:</b> On <b>Prime:</b> Off"
+		"SFUI_GameMode_custom"					"Custom"
+		"SFUI_GameModeCustom"					"Custom"
+		"SFUI_Elevated_Status_Desc_Tooltip"		"Your account has been upgraded to <b>Prime</b> status, which improves your Trust Factor. Trust Factor Matchmaking prioritizes matching together players with a similar Trust Factor."
+		"SFUI_Elevated_Status_Desc_Tooltip_pw"	"Your account has been upgraded to <b>Prime</b> status, which improves your Trust Factor. Trust Factor Matchmaking prioritizes matching together players with a similar Trust Factor."
 		"SFUI_Lobby_NumFriendsOnline"			"%s1 Online"
 		"SFUI_MainMenu_CommendTooltip_Wins"     "<b>Total Matchmaking Matches</b> won"
 		"SFUI_MainMenu_SkillTooltip"            "<b>Matchmaking Skill Groups:</b><br>-Silver I<br>- Silver II<br>- Silver III<br>- Silver IV<br>- Silver Elite<br>- Silver Elite Master<br>- Gold Nova I<br>- Gold Nova II<br>- Gold Nova III<br>- Gold Nova Master<br>- Master Guardian I<br>- Master Guardian II<br>- Master Guardian Elite<br>- Distinguished Master Guardian<br>- Legendary Eagle<br>- Legendary Eagle Master<br>-  Supreme Master First Class<br>- The Global Elite"
-		
 		"SFUI_Lobby_FriendsListerTitle"			"Friends"
 		"SFUI_Lobby_GroupsListerTitle"			"Lobbies"
 		"SFUI_Groups_Lobbys"					"Groups or nearby lobbies."		
@@ -69,9 +144,6 @@
 		"SFUI_Ignore_Friend_Request"			"Ignore"
 		"SFUI_Redeem_Service_Medal"				"Service Medal"	
 		"SFUI_QMM_ERROR_X_FailReadyUp"			"%s1 failed to Accept"
-		
-		// RANK / SKILL GROUP DISPLAY
-		
 		"SFUI_Lobby_FriendsListerTitle"			" "
 		"SFUI_InvTooltip_Crate"					"Requires: <b><font color='#FFFFFF'>%s1</b><font>"
 		"SFUI_InvContextMenu_sell"				"Sell"
@@ -80,22 +152,18 @@
 		"SFUI_InvContextMenu_tradeup_More"  	"Trade Up ( %s1/10 )"
 		"SFUI_InvContextMenu_openloadout"   	"Loadout Slot"
 		"SFUI_InvContextMenu_preview_musickit"  "Preview Music"
-		
 		"SFUI_BuyMenu_Header"" "
 		"SFUI_BuyMenu_WeaponClass"" "
 		"SFUI_BuyMenu_Autobuy"" "
 		"SFUI_BuyMenu_Buyprev"" "
 		"SFUI_BuyMenu_Buyprev"" "
 		"SFUI_BuyMenu_Done"" "
-		
 		"SFUI_WPNHUD_HE_Grenade"	"Grenade"
 		"SFUI_WPNHUD_Flashbang"		"Flashbang"
 		"SFUI_WPNHUD_IncGrenade"	"Incendiary"
 		"SFUI_WPNHUD_Decoy"			"Decoy"
 		"SFUI_WPNHUD_Smoke_Grenade"	"Smoke"
-		
 		"SFUI_Scoreboard_Players"		"Alive: %s1"
-		
 		"SFUI_PauseMenu_ResumeGameButton"				"RESUME"
 		"SFUI_PauseMenu_SwitchTeamsButton"				"TEAM"
 		"SFUI_PauseMenu_CallVoteButton"					"VOTE"
@@ -104,8 +172,6 @@
 		"SFUI_PauseMenu_ExitGameButton"					"DISCONNECT"
 		"SFUI_PauseMenu_OpenLoadout_Competitive"        "INVENTORY <font size='12'>(Warmup Only)</font>"
 		"SFUI_PauseMenu_OpenLoadout_Disabled"           "INVENTORY <font size='12'>(Warmup Only)</font>"
-
-		
 		"SFUI_Lobby_StatusWatchingCSGO"		"Watching Match"
 		"SFUI_Lobby_StatusOverwatch"		"Overwatch Session"
 		"SFUI_Lobby_StatusRichPresence__game"	"In-Game"
@@ -161,29 +227,14 @@
 		"SFUI_Lobby_StatusRichPresence_gungame_deathmatch_review_phoenix"		"Replaying 'Phoenix' DM"
 		"SFUI_Lobby_StatusRichPresence_training_training_game"					"Weapons Course"
 		"SFUI_Lobby_StatusInGame"												"Other Game"
-		
-		// OVERWATCH
-		
 		"SFUI_Overwatch_Res_NotGuilty_Label"			"Innocent"
 		"SFUI_Overwatch_Res_Major_Label"				"Guilty"
-		
-		// ITEM CERTIFICATE FONT FIX
-		
 		"SFUI_ItemInfo_FinishStyle"			"<font face='arial' color='#0a0a0a'>Finish Style<font>"
 		"SFUI_ItemInfo_FinishCatalog"		"<font face='arial' color='#0a0a0a'>Finish Catalog<font>"
 		"SFUI_ItemInfo_PatternTemplate"		"<font face='arial' color='#0a0a0a'>Pattern Template<font>"
 		"SFUI_ItemInfo_WearAmount"			"<font face='arial' color='#0a0a0a'>Wear Rating<font>"
-		
-		// INVENTORY CUSTOMIZATION
 
-		"SFUI_InvTooltip_Wear"" "
-		"SFUI_InvTooltip_Wear_Amount_0"		"<font size='16' color='#30FF30'>Factory New<font>"
-		"SFUI_InvTooltip_Wear_Amount_1"		"<font size='16' color='#D3FF3F'>Minimal Wear<font>"
-		"SFUI_InvTooltip_Wear_Amount_2"		"<font size='16' color='#B7950B'>Field-Tested<font>"
-		"SFUI_InvTooltip_Wear_Amount_3"		"<font size='16' color='#B9770E'>Well-Worn<font>"
-		"SFUI_InvTooltip_Wear_Amount_4"		"<font size='16' color='#AF601A'>Battle-Scarred<font>"
-		"Attrib_KillEater"					"This item features StatTrak™ technology."
-		
+
 		"CSGO_Item_Desc_HKP2000"" "
 		"CSGO_Item_Desc_AK47"" "
 		"CSGO_Item_Desc_Glock18"" "
@@ -248,29 +299,23 @@
 		"Cstrike_TitlesTXT_Switch_To_FullAuto"						"   Switched to\n   <font color='#00ff00'>FULL AUTO</font>\n  "
 		"Cstrike_TitlesTXT_Switch_To_SemiAuto"						"   Switched to\n   <font color='#e8ad21'>BRATT BRATT</font>\n  "
 
-		"SFUI_TitlesTXT_Fire_in_the_hole" "Grenade"
-		"SFUI_TitlesTXT_Molotov_in_the_hole" "Molotov"
-		"SFUI_TitlesTXT_Incendiary_in_the_hole" "Incendiary"
-		"SFUI_TitlesTXT_Flashbang_in_the_hole" "Flashbang"
-		"SFUI_TitlesTXT_Smoke_in_the_hole" "Smoke"
-		"SFUI_TitlesTXT_Decoy_in_the_hole" "Decoy"
-
-		"Cstrike_TitlesTXT_C4_Plant_At_Bomb_Spot"		"Can't plant here."
-		"SFUI_Notice_C4_Plant_At_Bomb_Spot"				"Can't plant here."
-		
-		"SFUIHUD_InfoPanel_DefuseText"					" "
-		"SFUIHUD_InfoPanel_DefuseText_NoKit"			"<font color='#625772'>Defusing without a kit.</font>"
+		"SFUI_TitlesTXT_Fire_in_the_hole" "● Grenade"
+		"SFUI_TitlesTXT_Molotov_in_the_hole" "● Molotov"
+		"SFUI_TitlesTXT_Incendiary_in_the_hole" "● Incendiary"
+		"SFUI_TitlesTXT_Flashbang_in_the_hole" "● Flashbang"
+		"SFUI_TitlesTXT_Smoke_in_the_hole" "● Smoke"
+		"SFUI_TitlesTXT_Decoy_in_the_hole" "● Decoy"
 
 		"SFUI_Scoreboard_Navigation_Cursor_Hint"	"<img src='XBoxA.png' width='14' height='14' vspace='-13'/><b>%s1</b> Enables Cursor" [$WIN32]
 		
 		
-		"SFUI_Notice_Match_Will_Start_Chat"				">> Warmup Mode."
+		"SFUI_Notice_Match_Will_Start_Chat"				">> Warmup"
 		"SFUI_Notice_Alert_Match_Point"					"MATCH POINT"
 		"SFUI_Notice_Alert_Final_Round"					"FINAL ROUND"
 		"SFUI_Notice_Alert_Last_Round_Half"				"LAST ROUND OF FIRST HALF"
 		"SFUI_Notice_Alert_Warmup_Period"				"%s1"
-		"SFUI_Notice_Alert_Warmup_Period_Ending"		"<font color='#F08080'>%s1</font>"
-		"SFUI_Notice_Alert_Waiting_For_Players"			"WAITING FOR PLAYERS %s1"
+		"SFUI_Notice_Alert_Warmup_Period_Ending"		"%s1"
+		"SFUI_Notice_Alert_Waiting_For_Players"			"WAITING FOR PLAYERS <font color='#F08080'>%s1</font>"
 		"SFUI_Notice_Alert_Match_Starting_In"			"<font color='#C6E075'>%s1</font>"
 		"SFUI_Notice_Alert_Match_Starting"				"<font color='#C6E075'>LIVE</font>"
 		"SFUI_Notice_Alert_Match_Restarting_In"			"<font color='#C6E075'>MATCH RESTARTING IN %s1...</font>"
@@ -279,12 +324,6 @@
 		"SFUI_Notice_Alert_Match_Start"					"<font color='#00ff00'>LIVE</font>"
 		"SFUI_Notice_Alert_Timeout"						"%s1 Timeout %s2"		
 		"SFUI_Notice_Alert_Freeze_Pause"				"MATCH PAUSED"
-		
-		"SFUI_Notice_YouDroppedWeapon"					"\n   <font color='#E0C675'>Dropped %s1</font>"
-		"SFUI_Notice_CannotDropWeapon"					"\n   <font color='#F08080'>You cannot drop your %s1</font>"
-		
-		"Cstrike_TitlesTXT_Bomb_Defused"				"Bomb defused"
-		"Cstrike_TitlesTXT_Bomb_Planted"				"Bomb planted \n<font color='#e8ad21'>%s1 SECONDS</font>"
 		
 		"SFUIHUD_playerid_sameteam"			"<font size='20' color='#00ff00'>%s1 | %s2</font>"
 		"SFUIHUD_playerid_diffteam"			"<font size='25' color='#ff0000'>%s1</font>"
@@ -302,11 +341,6 @@
 		"SFUIHUD_playerid_overhead_t"		"<font size='20' color='#ffc252'>%s1</font><font size='25' color='#00ff00'> %s2</font>"
 		"SFUIHUD_playerid_overhead_t_lowhealth"		"<font size='20' color='#ffc252'>%s1</font><font size='30' color='#ff0000'> %s2</font>"
 		"SFUIHUD_playerid_overhead_t_money"		"<font size='20' color='#c3953f'>%s1</font><font size='30' color='#00ff00'> %s2</font>"
-		
-		"FreezePanel_DamageTaken"		"<font color='#A0A0A0'>Taken:  </font><font size='16' color='#ff0000'>%s1</font> <font color='#A0A0A0'> in</font> <font size='16' color='#ff0000'>%s2 hit </font>"
-		"FreezePanel_DamageGiven"		"<font color='#A0A0A0'>Given:  </font><font size='18' color='#00ff48'>%s1</font> <font color='#A0A0A0'> in</font> <font size='18' color='#00ff00'>%s2 hit </font>"
-		"FreezePanel_DamageTaken_Multi"		"<font color='#A0A0A0'>Taken:  </font><font size='16' color='#ff0000'>%s1</font> <font color='#A0A0A0'> in</font> <font size='16' color='#ff0000'>%s2 hits </font>"
-		"FreezePanel_DamageGiven_Multi"		"<font color='#A0A0A0'>Given:  </font><font size='18' color='#00ff48'>%s1</font> <font color='#A0A0A0'> in</font> <font size='18' color='#00ff00'>%s2 hits </font>"
 
 		"BombsiteA"			"A"
 		"BombsiteB"			"B"
